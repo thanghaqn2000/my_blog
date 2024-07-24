@@ -1,13 +1,9 @@
 Rails.application.routes.draw do
-  devise_for :users
-  as :user do
-    get "signin" => "devise/sessions#new"
-    post "signin" => "devise/sessions#create"
-    get "sign_up" => "devise/registrations#new"
-    delete "signout" => "devise/sessions#destroy"
-  end
+  devise_for :admins, path: "admin", path_names: { sign_in: "login", sign_out: "logout", sign_up: "register" }, controllers: {
+    sessions: 'admins/sessions'
+  }
 
+  resources :admins, only: %i(index)
   resources :users, only: %i(index)
-  root to: "home#index" 
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root to: "home#index"
 end
