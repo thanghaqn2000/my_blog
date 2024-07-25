@@ -1,7 +1,19 @@
 {
+  "accordions.js": "/packs/js/accordions-fc384ff8ec0a479477a5.js",
+  "accordions.js.map": "/packs/js/accordions-fc384ff8ec0a479477a5.js.map",
   "application.js": "/packs/js/application-77cd68d6dc61562df0a9.js",
   "application.js.map": "/packs/js/application-77cd68d6dc61562df0a9.js.map",
+  "custom.js": "/packs/js/custom-9298e664295e56bad303.js",
+  "custom.js.map": "/packs/js/custom-9298e664295e56bad303.js.map",
   "entrypoints": {
+    "accordions": {
+      "js": [
+        "/packs/js/accordions-fc384ff8ec0a479477a5.js"
+      ],
+      "js.map": [
+        "/packs/js/accordions-fc384ff8ec0a479477a5.js.map"
+      ]
+    },
     "application": {
       "js": [
         "/packs/js/application-77cd68d6dc61562df0a9.js"
@@ -9,6 +21,54 @@
       "js.map": [
         "/packs/js/application-77cd68d6dc61562df0a9.js.map"
       ]
+    },
+    "custom": {
+      "js": [
+        "/packs/js/custom-9298e664295e56bad303.js"
+      ],
+      "js.map": [
+        "/packs/js/custom-9298e664295e56bad303.js.map"
+      ]
+    },
+    "isotope": {
+      "js": [
+        "/packs/js/isotope-e1f7a4fa321244d9d639.js"
+      ],
+      "js.map": [
+        "/packs/js/isotope-e1f7a4fa321244d9d639.js.map"
+      ]
+    },
+    "owl": {
+      "js": [
+        "/packs/js/owl-038c5f0bd4614567c71f.js"
+      ],
+      "js.map": [
+        "/packs/js/owl-038c5f0bd4614567c71f.js.map"
+      ]
+    },
+    "slick": {
+      "js": [
+        "/packs/js/slick-7077707d3a383fc160f7.js"
+      ],
+      "js.map": [
+        "/packs/js/slick-7077707d3a383fc160f7.js.map"
+      ]
+    },
+    "test": {
+      "js": [
+        "/packs/js/test-64a7f8a31a6acb346d72.js"
+      ],
+      "js.map": [
+        "/packs/js/test-64a7f8a31a6acb346d72.js.map"
+      ]
     }
-  }
+  },
+  "isotope.js": "/packs/js/isotope-e1f7a4fa321244d9d639.js",
+  "isotope.js.map": "/packs/js/isotope-e1f7a4fa321244d9d639.js.map",
+  "owl.js": "/packs/js/owl-038c5f0bd4614567c71f.js",
+  "owl.js.map": "/packs/js/owl-038c5f0bd4614567c71f.js.map",
+  "slick.js": "/packs/js/slick-7077707d3a383fc160f7.js",
+  "slick.js.map": "/packs/js/slick-7077707d3a383fc160f7.js.map",
+  "test.js": "/packs/js/test-64a7f8a31a6acb346d72.js",
+  "test.js.map": "/packs/js/test-64a7f8a31a6acb346d72.js.map"
 }
