@@ -1,4 +1,4 @@
-class Admins::SessionsController < Devise::SessionsController
+class Admin::SessionsController < Devise::SessionsController
   def after_sign_in_path_for resource 
     admins_path
   end
