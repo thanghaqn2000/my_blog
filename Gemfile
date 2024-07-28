@@ -15,6 +15,7 @@ gem "paranoia"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap", "~> 4.1.3"
 gem "jquery-rails"
+gem "tinymce-rails"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
