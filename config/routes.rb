@@ -4,8 +4,10 @@ Rails.application.routes.draw do
   }
   resources :admins, only: %i(index)
   namespace :admin do
-    resources :posts, only: %i(index)
+    resources :posts, only: %i(index new create show)
   end
   resources :users, only: %i(index)
+
+  post "/tinymce_assets", to: "tinymce_assets#create"
   root to: "home#index"
 end
