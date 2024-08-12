@@ -1,0 +1,18 @@
+<%= form_with(model: [:admin, @post], local: true) do |form| %>
+  <div class="field">
+    <%= form.label :title, "Tiêu đề" %>
+    <%= form.text_field :title %>
+  </div>
+  <div class="field">
+    <%= form.label :description, "Miêu tả" %>
+    <%= form.text_area :description %>
+  </div>
+  <div class="field">
+    <%= form.label :content, "Nội dung bài viết" %>
+    <%= form.text_area :content, class: "tinymce" %>
+  </div>
+  <div class="actions">
+    <%= form.submit "Tạo mới"%>
+  </div>
+<% end %>
+<%= tinymce %>
