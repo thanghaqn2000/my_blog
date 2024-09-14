@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   }
   resources :admins, only: %i(index)
   namespace :admin do
-    resources :posts, only: %i(index new create show)
+    resources :posts, only: %i(index new create show update edit)
   end
   resources :users, only: %i(index)
 
